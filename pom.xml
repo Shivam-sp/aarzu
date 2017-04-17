@@ -12,16 +12,8 @@
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-      
-      <dependency>
+    <dependencies>
+        <dependency>
             <groupId>commons-codec</groupId>
             <artifactId>commons-codec</artifactId>
             <version>1.6</version>
@@ -48,6 +40,12 @@
          <version>20090211</version>
       </dependency>
       
+      <dependency>
+<groupId>junit</groupId>
+<artifactId>junit</artifactId>
+<version>4.8.2</version>
+<scope>test</scope>
+</dependency>
 
 <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
@@ -60,10 +58,9 @@
             <artifactId>tomcat-catalina</artifactId>
             <version>8.5.3</version>
         </dependency>
-      
-  </dependencies>
-    
-     <build>
+   </dependencies>
+
+    <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -135,5 +132,8 @@
         </plugins>
           
     </build>
+
+</project>
+
 
 </project>
