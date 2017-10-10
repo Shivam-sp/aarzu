@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.admin.karsol_ano.LoginModule.LoginActivity"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="380dp"
+        android:layout_height="230dp"
+        app:srcCompat="@drawable/company" />
+
+    <LinearLayout
+        android:id="@+id/company1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/company1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/companytv1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.77"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            android:text="COMPANY-1" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:background="#ffffff"
+        android:id="@+id/company2">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/company2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/companytv2"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.77"
+            android:textColor="#00008b"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            android:text="COMPANY-2" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.admin.karsol_ano.LoginModule.LoginActivity"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imageVieweg"
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:layout_weight="0.04" />
+
+    <LinearLayout
+        android:id="@+id/english"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/eng" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/engtv1"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.77"
+            android:textColor="@color/appbar"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            android:text="ENGLISH" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:background="#ffffff"
+        android:id="@+id/gujrati">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/guj" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gujtv2"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.77"
+            android:textColor="@color/appbar"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            android:text="GUJARATI" />
+    </LinearLayout>
+
+</LinearLayout>
